@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "PyConZA 2017"
-date:       2017-06-26 1:00:00
+date:       2017-10-09 19:00:00
 author:     "Adrian Moisey"
 ---
 
@@ -50,10 +50,7 @@ I find that spending two days with Python people, talking about Python all the t
 On the day following the conference, myself, Jonatas, [Lasse Schuirmann](https://twitter.com/lschuirmann) and my wife went exploring Cape Town. We started off with an amazing breakfast in Kalk Bay, drove down to Simon's Town, paid our respects to [Just Nuisance](https://en.wikipedia.org/wiki/Just_Nuisance), visited the penguins at Boulder's Beach, ate some Pizza at The Red Herring in Noordhoek, looked at the view of Cape Town from Ou Kaapse Weg, tasted some wine at Steenberg Vineyards, watched the sun set from Signal Hill, and finally ate some hamburgers at Hudson's
 .
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/pycon-2017.jpg" alt="Ohana at Kalk Bay">
-</a>
-
+<img src="{{ site.baseurl }}/img/pycon-2017.jpg" alt="Steenberg Vineyard">
 
 ### Takealot challenge
 
