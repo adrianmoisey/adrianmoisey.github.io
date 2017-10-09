@@ -1,0 +1,62 @@
+---
+layout:     post
+title:      "PyConZA 2017"
+date:       2017-06-26 1:00:00
+author:     "Adrian Moisey"
+---
+
+# PyConZA 2017
+
+PyConZA 2017 was hosted at The River Club on Thursday and Friday the 5th and 6th of October. This was my 4th PyConZA conference I've been to. Having missed the last one in Cape Town, I was quite looking forward to having two days of 100% Python.
+
+## Talks
+
+Not really worried about the lineup at a PyConZA, I didn't really know which talks to look forward to, or what to expect. Below are some of the talks that resonated with me.
+
+### Great keynote
+
+The [Keynote](https://za.pycon.org/talks/1/) talk was something I didn't quite expect. [Flavio](http://flaper87.com/)'s talk struck a chord with me. As I've grown, I've learnt a lot of lessons about myself, and the world around me. A lot of what he spoke on are lessons I've learnt over the years, relating to how I should present myself to the world, and how I should behave around other people. Be nice! Pick your battles! Time is your most important asset.
+
+### GrapQL
+
+My friend [Mike Jones](https://twitter.com/imsickofmaps) gave a talk on [GraphQL and Django](https://za.pycon.org/talks/34/). Since my workplace uses GraphQL, it made sense for me to learn more. He spoke about why one might want to use GraphQL. He also had some nice examples of implementation, and how to test it. Some of which I need to apply to our project.
+
+### Zappar
+
+An international speaker, from Brazil, [Jonatas Baldin](https://twitter.com/jonatasbaldin) spoke on [Serverless and Zappa.](https://za.pycon.org/talks/47/). Having an understanding of Serverless, I thought I wouldn't learn too much from this talk, however, he showed off Zappa. Wow. he showed off how easy it was set up an entire Django project on AWS Lambda. Serverless is definitely something I need to keep an eye on.
+
+## Networking
+
+PyConZA (and any other tech conference or meetup) is a really nice time to meet other people. The talks are normall the main attraction, however, those can always be watched later on YouTube. I really enjoyed the people at conferences. PyConZA 2017 was great for networking, meeting new people, and learning loads.
+
+### Breaking the ice - with stickers
+
+Sometimes networking at conferences is difficult. Speaking to new people can be intimidating. A new tactic of mine is to bring along some tech stickers, and [tweet](https://twitter.com/adrianmoisey/status/916208170527227905) that I'm handing them out. It turns out that people love stickers for their laptops, so it's a great way to meet new people. 
+
+I've heard of other tricks, for example, setting a challenge for yourself, go speak to at least 3 people wearing red shoes.
+
+### Cool people
+
+I had the privilege of hosting [Jonatas Baldin](https://twitter.com/jonatasbaldin) for three nights. It was great to have such an enthusiastic person around all the time. We spoke about Django, Channels, Serverless, GraphQL, Cape Town, travel, DevOpsDays, etc etc.
+
+During the conference I chatted to a few people, and learnt a few tips. My friend, Jethro Muller, pointed me at [responses](https://pypi.python.org/pypi/responses), a library for mocking requests.
+
+### Excitement and inspiration
+
+I find that spending two days with Python people, talking about Python all the time, gets me inspired. It makes me want to go do awesome things and learn more things. That's part of why I'm writing this blog post, I'm trying make sense of the conference, and share my experience. This is also a reminder to me that if I need an "energy" boost, to go to a meetup, talk to people, find out about new tech. It helps.
+
+### Touring Cape Town
+
+On the day following the conference, myself, Jonatas, [Lasse Schuirmann](https://twitter.com/lschuirmann) and my wife went exploring Cape Town. We started off with an amazing breakfast in Kalk Bay, drove down to Simon's Town, paid our respects to [Just Nuisance](https://en.wikipedia.org/wiki/Just_Nuisance), visited the penguins at Boulder's Beach, ate some Pizza at The Red Herring in Noordhoek, looked at the view of Cape Town from Ou Kaapse Weg, tasted some wine at Steenberg Vineyards, watched the sun set from Signal Hill, and finally ate some hamburgers at Hudson's
+.
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/pycon-2017.jpg" alt="Ohana at Kalk Bay">
+</a>
+
+
+### Takealot challenge
+
+Dan Wells from Takealot setup a challenge for the attendees. He printed a unique secret for everyone, and pointed them at a URL (hosted on his laptop). I managed to complete it, and really enjoyed it. The biggest challenge for me was figuring out how to HMAC-SHA256 the body of the content I was sending.
+Each step of the challenge had a clue, and required you to POST the answer. Step 1 gave you a BASE64 encoded image, of a hamburger. Step 2 gave you a string, that had been encrypted with a simple Caesar cipher. Step 3 required you to figure out which NLP library he used to figure out the sentiment of a string, and send him the result. All in all, it was great fun.
+
