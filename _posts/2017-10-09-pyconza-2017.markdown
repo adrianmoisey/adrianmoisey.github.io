@@ -15,7 +15,7 @@ Not really worried about the lineup at a PyConZA, I didn't really know which tal
 
 ### Great keynote
 
-The [Keynote](https://za.pycon.org/talks/1/) talk was something I didn't quite expect. [Flavio](http://flaper87.com/)'s talk struck a chord with me. As I've grown, I've learnt a lot of lessons about myself, and the world around me. A lot of what he spoke on are lessons I've learnt over the years, relating to how I should present myself to the world, and how I should behave around other people. Be nice! Pick your battles! Time is your most important asset.
+The Keynote, [Don't try to look smart. Be smart](https://za.pycon.org/talks/1/), was something I didn't quite expect. [Flavio](http://flaper87.com/)'s talk struck a chord with me. As I've grown, I've learnt a lot of lessons about myself, and the world around me. A lot of what he spoke about are lessons I've been learning over the years, relating to how I should present myself to the world, and how I should behave around other people. Be nice! Pick your battles! Time is your most important asset.
 
 ### GraphQL
 
@@ -24,6 +24,11 @@ My friend [Mike Jones](https://twitter.com/imsickofmaps) gave a talk on [GraphQL
 ### Zappar
 
 An international speaker, from Brazil, [Jonatas Baldin](https://twitter.com/jonatasbaldin) spoke on [Serverless and Zappa.](https://za.pycon.org/talks/47/). Having an understanding of Serverless, I thought I wouldn't learn too much from this talk, however, he showed off Zappa. Wow. he showed off how easy it was set up an entire Django project on AWS Lambda. Serverless is definitely something I need to keep an eye on.
+
+### Takealot challenge
+
+Dan Wells, from Takealot, set up a challenge for the attendees. He printed a unique secret for everyone, and pointed them at a URL (hosted on his laptop). I managed to complete it, and really enjoyed it. The biggest challenge for me was figuring out how to HMAC-SHA256 the body of the content I was sending.
+Each step of the challenge had a clue, and required you to POST the answer. Step 1 gave you a BASE64 encoded image, of a cheeseburger. Step 2 gave you a string, that had been encrypted with a simple Caesar cipher. Step 3 required you to figure out which NLP library he used to figure out the sentiment of a string, and send him the result. All in all, it was great fun.
 
 ## Networking
 
@@ -39,7 +44,7 @@ I've heard of other tricks, for example, setting a challenge for yourself, go sp
 
 I had the privilege of hosting [Jonatas Baldin](https://twitter.com/jonatasbaldin) for three nights. It was great to have such an enthusiastic person around all the time. We spoke about Django, Channels, Serverless, GraphQL, Cape Town, travel, DevOpsDays, etc etc. His excitement was contagious!
 
-It turns out he wrote the Python tutorial on [https://www.howtographql.com/](https://www.howtographql.com/), and he has a tutorial on Django Channels on his GitHub account, which I took a look at. I'm hoping implement *something* with Django Channels soon (hopefully for GraphQL subscriptions).
+It turns out he wrote the Python tutorial on [https://www.howtographql.com/](https://www.howtographql.com/), and he has a tutorial on Django Channels on his GitHub account, which I took a look at. I'm to hoping implement *something* with Django Channels soon (hopefully for GraphQL subscriptions).
 
 During the conference I chatted to a few people, and learnt a few tips. My friend, Jethro Muller, pointed me at [responses](https://pypi.python.org/pypi/responses), a library for mocking requests. I manage to write a few test on our main project at work, using responses. It was supercontagiousimplement.
 
@@ -54,9 +59,3 @@ On the day following the conference, myself, Jonatas, [Lasse Schuirmann](https:/
 It was great to be able to show off our city to people who have never seen it before. Sometimes I forget about what Cape Town has to offer. Seeing the city from the eyes of a tourist reminds me to try appreciate what I have.
 
 <img src="{{ site.baseurl }}/img/pycon-2017.jpg" alt="Steenberg Vineyard">
-
-### Takealot challenge
-
-Dan Wells, from Takealot, setup a challenge for the attendees. He printed a unique secret for everyone, and pointed them at a URL (hosted on his laptop). I managed to complete it, and really enjoyed it. The biggest challenge for me was figuring out how to HMAC-SHA256 the body of the content I was sending.
-Each step of the challenge had a clue, and required you to POST the answer. Step 1 gave you a BASE64 encoded image, of a cheeseburger. Step 2 gave you a string, that had been encrypted with a simple Caesar cipher. Step 3 required you to figure out which NLP library he used to figure out the sentiment of a string, and send him the result. All in all, it was great fun.
-
