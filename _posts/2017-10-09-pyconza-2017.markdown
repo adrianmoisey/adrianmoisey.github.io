@@ -21,7 +21,7 @@ The Keynote, [Don't try to look smart. Be smart](https://za.pycon.org/talks/1/),
 
 My friend [Mike Jones](https://twitter.com/imsickofmaps) gave a talk on [GraphQL and Django](https://za.pycon.org/talks/34/). Since my workplace uses GraphQL, it made sense for me to learn more. He spoke about why one might want to use GraphQL. He also had some nice examples of implementation, and how to test it. Some of which I need to apply to our project.
 
-### Zappar
+### Zappa
 
 An international speaker, from Brazil, [Jonatas Baldin](https://twitter.com/jonatasbaldin) spoke on [Serverless and Zappa.](https://za.pycon.org/talks/47/). Having an understanding of Serverless, I thought I wouldn't learn too much from this talk, however, he showed off Zappa. Wow. he showed off how easy it was set up an entire Django project on AWS Lambda. Serverless is definitely something I need to keep an eye on.
 
