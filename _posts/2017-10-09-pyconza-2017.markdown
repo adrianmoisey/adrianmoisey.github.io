@@ -46,7 +46,7 @@ I had the privilege of hosting [Jonatas Baldin](https://twitter.com/jonatasbaldi
 
 It turns out he wrote the Python tutorial on [https://www.howtographql.com/](https://www.howtographql.com/), and he has a tutorial on Django Channels on his GitHub account, which I took a look at. I'm to hoping implement *something* with Django Channels soon (hopefully for GraphQL subscriptions).
 
-During the conference I chatted to a few people, and learnt a few tips. My friend, Jethro Muller, pointed me at [responses](https://pypi.python.org/pypi/responses), a library for mocking requests. I manage to write a few test on our main project at work, using responses. It was supercontagiousimplement.
+During the conference I chatted to a few people, and learnt a few tips. My friend, Jethro Muller, pointed me at [responses](https://pypi.python.org/pypi/responses), a library for mocking requests. I managed to write a few test on our main project at work, using responses. I was impressed with how easy it was to implement.
 
 ### Excitement and inspiration
 
