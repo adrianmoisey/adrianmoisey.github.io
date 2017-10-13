@@ -14,7 +14,7 @@ email_username: myblog@changeover.za.net
 getpocket_id: "@fu6g3d56pr5eDA2776T280gT02Acpd04eW6HnRAaN2m393y1962cpha4o15Zh0Vq"
 
 # Google Analytics
-# google_tracking_id:
+google_tracking_id: UA-108060617-1
 
 # Build settings
 markdown: kramdown
