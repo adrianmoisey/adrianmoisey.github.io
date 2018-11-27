@@ -8,12 +8,12 @@ author:     "Adrian Moisey"
 # Parallel jobs in GitLab with Pytest
 
 On 22 November 2018, GitLab released version [11.5](https://about.gitlab.com/2018/11/22/gitlab-11-5-released/) which introduced a new attribute for the GitLab Runner called `parallel`.  
-This options allows you to split a single job into multiple jobs, and let them run in parallel.  
-I'm going to describe how you can use this feature to split up tests in into multiple jobs with `pytest`.
+This option allows you to split a single job into multiple jobs, and let them run in parallel.  
+I'm going to describe how you can use this feature to split up tests into multiple jobs with `pytest`.
 
 ## Configuring your job
 
-The config option is quite simple, you define the number of of parallel jobs to run using `parallel: N` in your job definition. The [GitLab Runner](https://docs.gitlab.com/ee/ci/yaml/#parallel) docs have more details.
+The config option is quite simple, you define the number of parallel jobs to run using `parallel: N` in your job definition. The [GitLab Runner](https://docs.gitlab.com/ee/ci/yaml/#parallel) docs have more details.
 Here's an example from a snippet of my `.gitlab-ci.yml` file:
 ```
 pytest:
@@ -32,7 +32,7 @@ This will run 5 instances of `pytest`, with two additional environment variables
 
 ## Configuring pytest
 
-Standard `pytest` doesn't support splitting tests between multiple jobs, but, fortunatly for us, there is a plugin to do that.  
+Standard `pytest` doesn't support splitting tests between multiple jobs, but, fortunately for us, there is a plugin to do that.  
 [pytest-test-groups](https://github.com/mark-adams/pytest-test-groups) allows you to split tests up into groups, by passing in a count, and the index of that run. After installing pytest-test-groups, we can tweak the `.gitlab-ci.yml` file like this:
 
 ```
