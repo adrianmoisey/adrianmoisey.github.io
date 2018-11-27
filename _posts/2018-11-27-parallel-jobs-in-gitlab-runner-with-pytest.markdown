@@ -53,5 +53,5 @@ Now, when we run the job, we should get output similar to this in the "pipeline"
 ## Final
 
 As you can see, this feature is quite simple to use and configure. Some things to note before considering it:
-1. You might not get a performance boost. I tested this on a large code base, and due to our database migrations taking long, we actually decreased the time that the tests run. This is something we need to fix before using the parallel feature.
+1. The idea of running jobs in parallel is to make your tests run faster. But depending on your setup, sometimes this isn't the case. On the code base I tested, our database migrations were slow, which caused our tests to run slower in parallel. Considering this is an easy setup, it's worth testing.
 1. If you use tools that generate reports (such as code coverage) you'll end up with multiple reports. This means you may need to figure out how to combine these reports to make them useful again.
